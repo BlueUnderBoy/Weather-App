@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Young Météo</title>
+    <link rel="stylesheet" href="yw.css">
+    <script src="yw.js" defer></script>
+
+</head>
+<body>
+    <div class="nav">
+        <div class="navbar">
+            <ul class="pl">
+                <li class="bpn">Young<span>.</span>Météo</li>
+                <li class="nbs"><button class="cbtn" onclick="alert('Loading weather report')">Rabat</button></li>
+                <li class="nbs"><button class="cbtn" onclick="alert('Loading weather report')">Marrakech</button></li>
+                <li class="nbs"><button class="cbtn" onclick="alert('Loading weather report')">Casablanca</button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header">
+        <div class="section">
+            <h1 class="hs">Fez<h2 class="cvf">afficher la température à <select onchange="chooseTemp(this)"><option>°F</option><option>°C</option></select></h2></h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col">
+            <div class="weather">
+                <ul class="wday">
+                    <li class="lwday"><h2>Aujourd'hui</h2></li>
+                    <li class="lwday"><video class="partc" src="msunny.mp4" style="height: 150px" autoplay loop muted></video></li>
+                    <li class="lwday">Partiellement Nuageux</li>
+                    <li class="numt">
+                        <p class="tempt1">63°</p>
+                        <p class="tempt2">37°</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="weather">
+                <ul class="wday">
+                    <li class="lwday"><h2>Demain</h2></li>
+                    <li class="lwday"><video class="partc" src="mcloudy.mp4" style="height: 150px" autoplay loop muted></video></li>
+                    <li class="lwday">Nuageux</li>
+                    <li class="numt">
+                        <p class="temptm1">68°</p>
+                        <p class="temptm2">41°</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="weather">
+                <ul class="wday">
+                    <li class="lwday"><h2>Lundi</h2></li>
+                    <li class="lwday"><video class="partc" src="msunny.mp4" style="height: 150px" autoplay loop muted></video></li>
+                    <li class="lwday">Partiellement Nuageux</li>
+                    <li class="numt">
+                        <p class="tempm1">71°</p>
+                        <p class="tempm2">47°</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="weather">
+                <ul class="wday">
+                    <li class="lwday"><h2>Mardi</h2></li>
+                    <li class="lwday"><video class="partc" src="Rainy.mp4" style="height: 150px" autoplay loop muted></video></li>
+                    <li class="lwday">Pluvieux</li>
+                    <li class="numt">
+                        <p class="temptu1">66°</p>
+                        <p class="temptu2">44°</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="cookie">
+        <div class="msg">
+            <ul class="warn">
+                <li class="anim"><video class="cvid" src="cookie.mp4" style="height: 109px" autoplay loop muted></video></li>
+                <li class="ctxt"><h2 class="ct">Stop!. Cookie time</h2><p class="cp">Nous utilisons les cookies (malheuresement pas le type comestibles) pour personnaliser le contenu et les pubs, pour fournir les fonctionnalité de réseaux sociaux et aussi pour analyser notre fréquentation.<a href="">Lit Plus...</a></p></li>
+                <li><button class="bcook" onclick="hide()">J'accepte</button></li>
+            </ul> 
+        </div>
+    </div>
+</body>
+</html>

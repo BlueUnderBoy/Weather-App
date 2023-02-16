@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*border-style: solid;*/
+}
+
+.nav {
+    display: flex;
+    justify-content: center;  
+    background-color: rgb(13, 103, 133);
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgb(13, 103, 133);
+    color: white;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+}
+
+.pl {
+    display: inline-flex;
+    margin-top: 15px;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    margin-right: 150px;
+}
+
+.bpn {
+    display: inline-flex;
+    font-size: 35pt;
+    justify-content: center;
+    margin-right: 200px;
+    width: 100%;
+    height: fixed;
+    flex-wrap: nowrap;
+}
+
+span {
+    color: rgb(13, 103, 133);
+}
+
+.nb {
+    margin-right: 20px;
+    font-size: 23pt;
+}
+
+.cbtn {
+    background-color: rgb(13, 103, 133);
+    color: white;
+    border-style: none;
+    font-size: 23pt;
+}
+
+.nbs {
+    font-size: 23pt;
+    margin-right: 20px;
+    
+}
+
+.header {
+    width: 100%;
+}
+
+.section {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center; 
+    width: 100%;
+}
+
+.hs, .cvf {
+    margin-top: 15px;
+    
+}
+
+.hs {
+    margin-right: px;
+    font-size: 35pt;
+}
+
+select {
+    font-size: 20pt;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    border-top-style: solid;
+    border-radius: 2%;
+    width: 900px;
+}
+
+.weather {
+    background-color: rgb(204, 204, 204);
+    width: 200px;
+    height: 320px;
+    text-align: center;
+    margin: 10px;
+}
+
+.wday {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.lwday, .numt {
+    margin-top: 15px;
+}
+
+.numt {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    font-size: 20pt;
+}
+
+.partc {
+    border-radius: 50%;
+}
+
+.cookie {
+    position: fixed;
+    right: 50%;
+    left: 50%;
+}
+
+.msg {
+    display: flex;
+    justify-content: center;
+}
+
+.warn {
+    display: flex;
+    width: 860px;
+    height: 110px;
+    list-style-type: none;
+    align-items: center;
+    border-style: solid;
+}
+
+.ctxt {
+    width: 620px;
+    font-size: 14pt;
+}
+
+.anim {
+    margin-top: 3px;
+}
+
+.bcook {
+    padding:5px 10px;
+    font-size: 15pt;
+    box-shadow: 5px 5px;
+    background-color: rgb(71, 140, 163);
+    margin-left: 10px;
+    margin-right: 15px;
+}
